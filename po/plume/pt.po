@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: plume\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-15 16:33-0700\n"
-"PO-Revision-Date: 2019-12-16 21:07\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-08-03 21:07\n"
+"Last-Translator: Aster <asters@tutanota.com>\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 # src/template_utils.rs:102
 msgid "{0} commented on your article."
-msgstr "{0} comentou o seu artigo."
+msgstr "{0} comentou em seu artigo."
 
 # src/template_utils.rs:103
 msgid "{0} is subscribed to you."
@@ -25,7 +25,7 @@ msgstr "{0} se inscreveu."
 
 # src/template_utils.rs:104
 msgid "{0} liked your article."
-msgstr "{0} curtiu o seu artigo."
+msgstr "{0} curtiu seu artigo."
 
 # src/template_utils.rs:105
 msgid "{0} mentioned you."
@@ -89,15 +89,15 @@ msgstr "As configurações da instância foram salvas."
 
 # src/routes/instance.rs:175
 msgid "{} have been unblocked."
-msgstr "{} foi desbloqueado."
+msgstr "Você desbloqueou {}."
 
 # src/routes/instance.rs:177
 msgid "{} have been blocked."
-msgstr "{} foi bloqueado."
+msgstr "Você bloqueou {}."
 
 # src/routes/instance.rs:221
 msgid "{} have been banned."
-msgstr "{} foi banido."
+msgstr "Você baniu {}."
 
 # src/routes/likes.rs:51
 msgid "To like a post, you need to be logged in"
@@ -133,7 +133,7 @@ msgstr "Para escrever um novo artigo, você precisa entrar"
 
 # src/routes/posts.rs:139
 msgid "You are not an author of this blog."
-msgstr "Você não é um autor deste blog."
+msgstr "Você não é da equipe deste blog."
 
 # src/routes/posts.rs:146
 msgid "New post"
@@ -173,7 +173,7 @@ msgstr "Parece que o artigo que você tentou excluir não existe. Talvez ele já
 
 # src/routes/posts.rs:642
 msgid "Couldn't obtain enough information about your account. Please make sure your username is correct."
-msgstr "Não foi possível obter informações sobre sua conta. Por favor, certifique-se de que seu nome de usuário completo está certo."
+msgstr "Não foi possível obter informações sobre sua conta. Por favor, certifique-se de que o nome de sua conta está certo."
 
 # src/routes/reshares.rs:51
 msgid "To reshare a post, you need to be logged in"
@@ -181,7 +181,7 @@ msgstr "Para compartilhar um artigo, você precisa entrar"
 
 # src/routes/session.rs:112
 msgid "You are now connected."
-msgstr "Agora você está conectado."
+msgstr "Você entrou em sua conta."
 
 # src/routes/session.rs:131
 msgid "You are now logged off."
@@ -217,7 +217,7 @@ msgstr "Você seguiu {}."
 
 # src/routes/user.rs:254
 msgid "To subscribe to someone, you need to be logged in"
-msgstr "Para se inscrever, você precisa entrar"
+msgstr "Você precisa entrar em sua conta para se inscrever"
 
 # src/routes/user.rs:356
 msgid "To edit your profile, you need to be logged in"
@@ -280,7 +280,7 @@ msgid "Articles tagged \"{0}\""
 msgstr "Artigos com a tag \"{0}\""
 
 msgid "There are currently no articles with such a tag"
-msgstr "Não há artigos com a tag ainda"
+msgstr "Ainda não há artigos com esta tag"
 
 msgid "New Blog"
 msgstr "Novo Blog"
@@ -306,7 +306,7 @@ msgid "Description"
 msgstr "Descrição"
 
 msgid "Markdown syntax is supported"
-msgstr "Suporta sintaxe Markdown"
+msgstr "Aceita sintaxe Markdown"
 
 msgid "You can upload images to your gallery, to use them as blog icons, or banners."
 msgstr "Você pode enviar imagens da sua galeria, para usá-las como ícones ou capas do blog."
@@ -340,8 +340,8 @@ msgstr "Editar"
 
 msgid "There's one author on this blog: "
 msgid_plural "There are {0} authors on this blog: "
-msgstr[0] "Há apenas um autor neste blog: "
-msgstr[1] "Há {0} autores neste blog: "
+msgstr[0] "Apenas uma pessoa escreve neste blog: "
+msgstr[1] "{0} pessoas escrevem neste blog: "
 
 msgid "Latest articles"
 msgstr "Artigos recentes"
@@ -412,10 +412,10 @@ msgstr "Domínio da instância"
 
 # src/template_utils.rs:339
 msgid "Posted by one of these authors"
-msgstr "Publicado por um desses autores"
+msgstr "Publicado por ume déssies autories"
 
 msgid "Author(s)"
-msgstr "Autor(es)"
+msgstr "Autore(ies)"
 
 # src/template_utils.rs:339
 msgid "Posted on one of these blogs"
@@ -445,7 +445,7 @@ msgid "Log in to interact"
 msgstr "Entre para interagir"
 
 msgid "Enter your full username to interact"
-msgstr "Digite seu nome de usuário completo para interagir"
+msgstr "Digite o nome completo de sua conta para interagir"
 
 msgid "Publish"
 msgstr "Publicar"
@@ -461,7 +461,7 @@ msgid "Content"
 msgstr "Conteúdo"
 
 msgid "You can upload media to your gallery, and then copy their Markdown code into your articles to insert them."
-msgstr "Você pode enviar mídia da sua galeria e inserí-la no artigo usando o código Markdown."
+msgstr "Você pode enviar mídia da sua galeria e inserí-la no artigo usando código Markdown."
 
 msgid "Upload media"
 msgstr "Enviar mídia"
@@ -508,7 +508,7 @@ msgstr[0] "Uma curtida"
 msgstr[1] "{0} curtidas"
 
 msgid "I don't like this anymore"
-msgstr "Eu não curto mais isso"
+msgstr "Não quero mais curtir isso"
 
 msgid "Add yours"
 msgstr "Curtir"
@@ -538,7 +538,7 @@ msgstr "Comentários"
 
 # src/template_utils.rs:251
 msgid "Content warning"
-msgstr "Alerta de conteúdo"
+msgstr "Aviso sobre o conteúdo"
 
 msgid "Your comment"
 msgstr "Seu comentário"
@@ -547,7 +547,7 @@ msgid "Submit comment"
 msgstr "Enviar comentário"
 
 msgid "No comments yet. Be the first to react!"
-msgstr "Sem comentários ainda. Seja o primeiro!"
+msgstr "Sem comentários ainda. Faça o primeiro!"
 
 msgid "Are you sure?"
 msgstr "Você tem certeza?"
@@ -556,10 +556,10 @@ msgid "Delete"
 msgstr "Excluir"
 
 msgid "This article is still a draft. Only you and other authors can see it."
-msgstr "Este artigo ainda é um rascunho. Apenas você e outros autores podem vê-lo."
+msgstr "Este artigo ainda é um rascunho. Apenas você e outres autories podem vê-lo."
 
 msgid "Only you and other authors can edit this article."
-msgstr "Apenas você e outros autores podem editar este artigo."
+msgstr "Apenas você e outres autories podem editar este artigo."
 
 msgid "Media upload"
 msgstr "Envio de mídia"
@@ -568,7 +568,7 @@ msgid "Useful for visually impaired people, as well as licensing information"
 msgstr "Útil para pessoas com deficiência visual e para informações de licenciamento"
 
 msgid "Leave it empty, if none is needed"
-msgstr "Deixe vazio se nenhum for necessário"
+msgstr "Deixe o campo vazio caso isso não seja necessário"
 
 msgid "File"
 msgstr "Arquivo"
@@ -586,7 +586,7 @@ msgid "You don't have any media yet."
 msgstr "Sem mídia."
 
 msgid "Content warning: {0}"
-msgstr "Alerta de conteúdo: {0}"
+msgstr "Aviso sobre o conteúdo: {0}"
 
 msgid "Details"
 msgstr "Detalhes"
@@ -658,7 +658,7 @@ msgid "Local feed"
 msgstr "Feed local"
 
 msgid "Nothing to see here yet. Try subscribing to more people."
-msgstr "Nada aqui. Tente se inscrever em mais usuários."
+msgstr "Nada aqui. Tente se inscrever em mais contas."
 
 msgid "Articles from {}"
 msgstr "Artigos de {}"
@@ -667,7 +667,7 @@ msgid "All the articles of the Fediverse"
 msgstr "Todos os artigos do Fediverso"
 
 msgid "Users"
-msgstr "Usuários"
+msgstr "Usuáries"
 
 msgid "Configuration"
 msgstr "Configuração"
@@ -686,7 +686,7 @@ msgid "Name"
 msgstr "Nome"
 
 msgid "Allow anyone to register here"
-msgstr "Permitir que qualquer um se registre aqui"
+msgstr "Permitir que qualquer ume se registre aqui"
 
 msgid "Short description"
 msgstr "Descrição breve"
@@ -696,7 +696,7 @@ msgstr "Descrição longa"
 
 # src/template_utils.rs:251
 msgid "Default article license"
-msgstr "Licença padrão do artigo"
+msgstr "Licença padrão dos artigos"
 
 msgid "Save these settings"
 msgstr "Salvar estas configurações"
@@ -708,28 +708,28 @@ msgid "Runs Plume {0}"
 msgstr "Roda Plume {0}"
 
 msgid "Home to <em>{0}</em> people"
-msgstr "Lar de <em>{0}</em> usuários"
+msgstr "Lar de <em>{0}</em> usuáries"
 
 msgid "Who wrote <em>{0}</em> articles"
-msgstr "Que escreveu <em>{0}</em> artigos"
+msgstr "Que escreveram <em>{0}</em> artigos"
 
 msgid "And are connected to <em>{0}</em> other instances"
 msgstr "E federa com <em>{0}</em> outras instâncias"
 
 msgid "Administred by"
-msgstr "Administrado por"
+msgstr "Administração por"
 
 msgid "If you are browsing this site as a visitor, no data about you is collected."
-msgstr "Se você está navegando neste site como um visitante, nenhum dado sobre você é coletado."
+msgstr "Se você está navegando aqui como visitante, nenhum dado sobre você é coletado."
 
 msgid "As a registered user, you have to provide your username (which does not have to be your real name), your functional email address and a password, in order to be able to log in, write articles and comment. The content you submit is stored until you delete it."
-msgstr "Como usuário registrado, você deve fornecer seu nome de usuário (que não precisa ser seu nome real), seu endereço de e-mail funcional e uma senha, para poder entrar, escrever artigos e comentários. O conteúdo que você enviar é armazenado até que você o exclua."
+msgstr "Como usuárie registrade, você deve fornecer um nome de conta (que não precisa ser seu nome real), um endereço de e-mail funcional e uma senha, para poder entrar e escrever artigos e comentários. O conteúdo que você envia é armazenado até que você o exclua."
 
 msgid "When you log in, we store two cookies, one to keep your session open, the second to prevent other people to act on your behalf. We don't store any other cookies."
-msgstr "Quando você entra, armazenamos dois cookies, um para manter a sua sessão aberta e o outro para impedir outras pessoas de agirem em seu nome. Não armazenamos nenhum outro cookies."
+msgstr "Quando você entra, armazenamos dois cookies, um para manter a sua sessão aberta e outro para impedir outras pessoas de agirem em seu nome. Não armazenamos nenhum outro cookie."
 
 msgid "Welcome to {}"
-msgstr "Boas vindas ao {}"
+msgstr "Boas vindas a {}"
 
 msgid "Unblock"
 msgstr "Desbloquear"
@@ -756,7 +756,7 @@ msgstr "Entrar"
 
 # src/template_utils.rs:251
 msgid "Username, or email"
-msgstr "Nome de usuário ou e-mail"
+msgstr "Nome da conta ou e-mail"
 
 # src/template_utils.rs:251
 msgid "Password"
@@ -776,10 +776,10 @@ msgid "We sent a mail to the address you gave us, with a link to reset your pass
 msgstr "Enviamos para você um e-mail com um link para redefinir sua senha."
 
 msgid "Admin"
-msgstr "Administrador"
+msgstr "Administradore"
 
 msgid "It is you"
-msgstr "Este é você"
+msgstr "É você"
 
 msgid "Edit your profile"
 msgstr "Editar seu perfil"
@@ -794,7 +794,7 @@ msgid "Log in to follow"
 msgstr "Entre para seguir"
 
 msgid "Enter your full username handle to follow"
-msgstr "Digite seu nome de usuário completo para seguir"
+msgstr "Digite o nome completo da sua conta para seguir"
 
 msgid "{0}'s subscriptions"
 msgstr "Inscrições de {0}"
@@ -803,7 +803,7 @@ msgid "Articles"
 msgstr "Artigos"
 
 msgid "Subscribers"
-msgstr "Inscritos"
+msgstr "Inscrites"
 
 msgid "Subscriptions"
 msgstr "Inscrições"
@@ -816,7 +816,7 @@ msgstr "Criar uma conta"
 
 # src/template_utils.rs:251
 msgid "Username"
-msgstr "Nome de usuário"
+msgstr "Nome da conta"
 
 # src/template_utils.rs:251
 msgid "Email"
@@ -830,7 +830,7 @@ msgid "Apologies, but registrations are closed on this particular instance. You 
 msgstr "Desculpe, mas os registros estão fechados nesta instância. Você pode, no entanto, procurar outra."
 
 msgid "{0}'s subscribers"
-msgstr "Inscritos de {0}"
+msgstr "Inscrites de {0}"
 
 msgid "Edit your account"
 msgstr "Editar sua conta"
@@ -861,7 +861,7 @@ msgid "Delete your account"
 msgstr "Excluir sua conta"
 
 msgid "Sorry, but as an admin, you can't leave your own instance."
-msgstr "Desculpe, mas como administrador(a), você não pode sair da sua própria instância."
+msgstr "Desculpe, mas como administradore, você não pode sair da sua própria instância."
 
 msgid "Your Dashboard"
 msgstr "Seu Painel"
@@ -894,7 +894,7 @@ msgid "Plume is a decentralized blogging engine."
 msgstr "Plume é um motor de blogs descentralizado."
 
 msgid "Authors can manage multiple blogs, each as its own website."
-msgstr "Autores podem gerenciar vários blogs, cada um como seu próprio site."
+msgstr "Pessoas podem gerenciar vários blogs, cada um como seu próprio site."
 
 msgid "Articles are also visible on other Plume instances, and you can interact with them directly from other platforms like Mastodon."
 msgstr "Os artigos também são visíveis em outras instâncias Plume, e você pode interagir com elas diretamente de outras plataformas como o Mastodon."
@@ -931,7 +931,7 @@ msgstr "Eu sou de outra instância"
 
 # src/template_utils.rs:259
 msgid "Example: user@plu.me"
-msgstr "Exemplo: usuario@plu.me"
+msgstr "Exemplo: usuarie@plu.me"
 
 msgid "Continue to your instance"
 msgstr "Continuar para sua instância"
